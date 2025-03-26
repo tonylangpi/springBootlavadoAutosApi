@@ -17,7 +17,7 @@ public class PermissionEntity {
     private Long id;
 
     @Column(unique = true, nullable = false, updatable = false)
-    private String name;
+    public String name;
 
     // Constructor manual para Builder
     public static PermissionEntity create(String name) {

@@ -49,4 +49,34 @@ public class UserEntity {
         this.roles = roles;
     }
 
+    public Set<RoleEntity> getRoles() {
+        return roles;
+    }
+
+    public String getUsername(){
+        return username;
+    }
+
+    public String getPassword(){
+        return password;
+    }
+
+    public boolean isEnabled(){
+        return isEnabled;
+    }
+
+    public boolean isAccountNoExpired(){
+        return accountNoExpired;
+    }
+
+    public boolean isCredentialNoExpired(){
+        return credentialNoExpired;
+    }
+
+    public boolean isAccountNoLocked(){
+        return accountNoLocked;
+    }
+
+
+
 }
